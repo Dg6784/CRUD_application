@@ -1,0 +1,26 @@
+<div class="loginpage">
+    <div class="card1">
+        <div class="card-body1 border">
+            <form class="form-signin" (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+                <h1 class="h3 mb-3 font-weight-normal heading">PLEASE LOGIN </h1>
+
+                <label for="inputlogin" class="sr-only">Login </label>
+                <input type="text" id="inputLogin" class="form-control" name="login" placeholder="User" ngModel
+                    required autofocus>
+
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password"
+                    autocomplete="on" ngModel required>
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">LOGIN</button>
+
+                <div class="alert alert-danger text-center" role="alert" *ngIf="isFormValid" >
+                    Please Give User And Pass.
+                </div>
+                <div class="alert alert-danger" role="alert" *ngIf="areCredentialsInvalid">
+                    Invalid User or Password.
+                </div>
+            </form>
+        </div>
+    </div> 
+</div>

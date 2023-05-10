@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.contact-image{
+    width: 90px;
+    /* border-radius: 50% */
+}
+.contact-image-big{
+    width: 100px;
+    /* border-radius: 50% */
+    margin-left: 250px;
+}
+body{
+    background-color: #000e20;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.loginpage {
+    margin: 20rem auto;
+    width: 20rem;
+}
+
+input {
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-bottom: 2rem;
+    margin-left: 80px;
+}
+.border{
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+}
